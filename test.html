@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="test.css">
         <title>Test.app</title>
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#navbar" data-offset="150">
         <nav class="navbar navbar-light bg-faded navbar-fixed-top" id="navbar">
             <a class="navbar-brand" href="#">MyApp</a>
             <ul class="nav navbar-nav">
@@ -82,7 +82,15 @@
                 </div>
             </div>
         </div>
-
+        
+        <div id="footer">
+            <div class="row">      
+                <h2>Download the app!</h2>
+                <p class="lead">Really, why should I download this app??</p>
+                <p><a href=""><img id="appStoreIcon" src="App-Store-Icon.png"></a></p>
+            </div>
+         </div>
+         
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 </body>
